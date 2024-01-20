@@ -1,6 +1,8 @@
+# Step by step prepare project
+
 - Worker-node'a git
 
-- Worker-node içerisinde Project-006-kittens-carousel-static-website-flask_KUBERNETES isimli klasör oluştur ==>> "PersistentVolume"  tanımlarken "hostPath" olarak belirteceğiz. Bu klasörü oluşturmasan da "PersistentVolume" tanımlarken bu klasör kendisi oluşacak.
+- Worker-node içerisinde Project-006-kittens-carousel-static-website-flask_KUBERNETES isimli klasör oluştur ==>> `PersistentVolume`  tanımlarken "hostPath" olarak belirteceğiz. Bu klasörü oluşturmasan da `PersistentVolume` tanımlarken bu klasör kendisi oluşacak.
 
 - Master-node'a git
 
@@ -23,7 +25,7 @@ cd Lesson
         ├── cat2.jpg
         └── index.html
 
-- Dockerfile oluşturalım , image oluşturalım , dockerhub'a push edelim.
+- `Dockerfile` oluşturalım , image oluşturalım , dockerhub'a push edelim.
 
 ```bash
 touch Dockerfile
