@@ -11,6 +11,6 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: "/home/ubuntu/Project-006-kittens-carousel-static-website-flask_KUBERNETES
-    # worker-node içerisindeki klasör adı: Project-101-kittens-carousel-static-website-nginx_KUBERNETES
+    path: "/home/ubuntu/kittens-local-volume
+    # worker-node içerisindeki klasör adı: kittens-local-volume
     # Daha önceden bu klasör oluşturmamış olsan da kendisi oluşacak

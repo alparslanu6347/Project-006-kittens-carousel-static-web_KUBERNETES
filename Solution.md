@@ -6,7 +6,7 @@
 
 - Master-node'a git
 
-```bash
+```bash (pwd : home/ubuntu)
 mkdir Lesson
 cd Lesson
 ```
