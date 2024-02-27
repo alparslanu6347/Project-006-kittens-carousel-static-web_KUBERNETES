@@ -2,7 +2,7 @@
 
 - Worker-node'a git
 
-- Worker-node içerisinde Project-006-kittens-carousel-static-website-flask_KUBERNETES isimli klasör oluştur ==>> `PersistentVolume`  tanımlarken "hostPath" olarak belirteceğiz. Bu klasörü oluşturmasan da `PersistentVolume` tanımlarken bu klasör kendisi oluşacak.
+- Worker-node içerisinde `kittens-local-volume` isimli klasör oluştur ==>> `PersistentVolume`  tanımlarken "hostPath" olarak belirteceğiz. Bu klasörü oluşturmasan da `PersistentVolume` tanımlarken bu klasör kendisi oluşacak.
 
 - Master-node'a git
 
